@@ -1,0 +1,162 @@
+/* ------- Overall Main Styling ---------*/
+
+html {
+    margin-top:0;
+    padding-top:0;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.9;
+    margin-top: 0;
+    padding-top: 0;
+    width: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+a,
+p {
+    color: gray;
+}
+
+/* -------- HEADER Section --------------*/
+
+.fixed-header {
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fixed-header img {
+    height: 50px;
+    padding: 10px;
+}
+
+.fixed-header ul {
+    height: 100%;
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+.fixed-header ul li {
+    padding: 0px 10px 0px 10px;
+}
+
+.fixed-header ul li a:hover {
+    color: aqua;
+}
+
+.fixed-header ul li:active {
+    cursor: pointer;
+}
+
+.fixed-header ul li a:active {
+    color: red;
+}
+
+
+/* ------------MISSION Section---------------- */
+
+
+.mission-container {
+    position: relative;
+    display: flex;
+    height: 700px;
+    width: auto;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-image: url(img-mission-background.jpg);
+    background-image: no-repeat;
+    z-index: -1000;
+}
+
+#mission-banner-over-photo {
+    top: 300px;
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    flex-flow: row-wrap;
+    width: 100%;
+    height: 100px;
+    line-height: 15px;
+}
+
+
+/* -----------Tea Of The Month Section-------------- */
+
+#TOTM-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.TOTM-flex {
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: 140px;
+    margin-right: 140px;
+    text-align: center;
+    line-height: 10px;
+}
+
+/* ----------- LOCATIONS SECTION -------------- */
+
+.locations-container {
+    position: relative;
+    display: flex;
+    height: 500px;
+    width: auto;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-image: url(img-locations-background.jpg);
+    z-index: -1000;
+}
+
+.location-box {
+    background: black;  
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* ---------- FOOTER SECTION -------------- */
+
+#footer-container {
+    text-align: center;
+}
+
+footer h5 {
+    margin-left: 20px;
+}
+
+
+
+/* ----- Photo sizing ------ */
+
+#TOTM-Photos,
+#TOTM-Photos2,
+#TOTM-Photos3,
+#TOTM-Photos4,
+#TOTM-Photos5 {
+    width: 300px;
+    height: 200px;
+}
